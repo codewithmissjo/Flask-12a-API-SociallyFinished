@@ -23,6 +23,7 @@ function getLikes() {
   // GET fetch request
   fetch("/api/get/errything")
   .then( response => {
+    console.log(response);
     return response.json();
   }).then(
     // update the HTML
