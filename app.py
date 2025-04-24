@@ -11,7 +11,7 @@ def home():
 def stuff():
   global likes
   newlike = request.get_json()
-  print(newlike)
+  print(f'total likes: ${likes}')
   likes = likes + 1
   return 'Success', 200
 
