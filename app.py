@@ -19,6 +19,3 @@ def stuff():
 def stuff2():
   print(jsonify(likes))
   return jsonify(likes)
-
-if __name__ == "__main__":
-  app.run()
